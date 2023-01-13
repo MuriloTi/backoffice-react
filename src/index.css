@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.gradient-form{
+  font-family: Roboto, sans-serif;
+}
+
+.gradient-custom-2 {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #1D90DA, #1070AE, #186292, #0B4C76);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #1D90DA, #1070AE, #186292, #0B4C76);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+.small-icon{
+  height: 20px;
+}
+
+.square-200{
+  width: 200px;
+  height: 200px;
+}
+
+.progression-circular{
+  width: 100px;
+  height: 100px;
+}
+
+.text-blue{
+  color: #0088FE;
+}
+.text-green{
+  color: #00C49F;
+}
+.text-yellow{
+  color: #FFBB28;
+}
+.text-orange{
+  color: #FF8042;
+}
+
+.form-center{
+  min-width: 350px;
+  max-width: 450px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@import './bootstrap/bootstrap.css';
