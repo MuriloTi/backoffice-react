@@ -1,5 +1,5 @@
 const API_BASE_URL_DEVELOPMENT = 'https://localhost:7019/api';
-const API_BASE_URL_PRODUCTION = 'https://localhost:7019/api';
+const API_BASE_URL_PRODUCTION = 'https://backoffice-murilo.azurewebsites.net/api';
 const VIA_CEP_API = 'https://viacep.com.br/ws/';
 
 
